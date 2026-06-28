@@ -9,8 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ThaumCraft4Rekindled.MODID);
 
-    public static final DeferredItem<Item> THAUMIUM = ITEMS.register("thaumium_ingot",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> THAUMIUM = ITEMS.register("thaumium_ingot", () -> new Item(new Item.Properties()));
 
 
 

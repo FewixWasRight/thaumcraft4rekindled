@@ -31,15 +31,15 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
+
 @Mod(ThaumCraft4Rekindled.MODID)
 public class ThaumCraft4Rekindled {
-    // Define mod id in a common place for everything to reference
-    public static final String MODID = "thaumcraft4rekindled";
-    // Directly reference a slf4j logger
+
+    public static final String MODID = "tc4r";
+
     public static final Logger LOGGER = LogUtils.getLogger();
     public ThaumCraft4Rekindled(IEventBus modEventBus, ModContainer modContainer) {
-        // Register the commonSetup method for modloading
+
         modEventBus.addListener(this::commonSetup);
 
 
