@@ -1,5 +1,11 @@
 {
-    "item.tc4r.thaumium_ingot": "Thaumium Ingot"
+    "item.tc4r.thaumium_ingot": "Thaumium Ingot",
+    "item.tc4r.goggles": "Goggles Of Revealing",
+
+    "block.tc4r.thaumium_block": "Thaumium Block",
+
+    "creativetab.tc4r.tc_items_tab": "Thaumcraft Items",
+    "creativetab.tc4r.tc_blocks_tab": "Thaumcraft Blocks"
 
 
 

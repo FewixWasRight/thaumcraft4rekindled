@@ -1,5 +1,7 @@
 package com.fewixwasright.tc4r;
 
+import com.fewixwasright.tc4r.block.ModBlocks;
+import com.fewixwasright.tc4r.item.CreativeModeTabsTC;
 import com.fewixwasright.tc4r.item.ModItems;
 import org.slf4j.Logger;
 
@@ -49,8 +51,11 @@ public class ThaumCraft4Rekindled {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        CreativeModeTabsTC.register(modEventBus);
+
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -70,6 +75,9 @@ public class ThaumCraft4Rekindled {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.THAUMIUM);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.THAUMIUM_BLOCK);
         }
 
 

@@ -10,6 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ThaumCraft4Rekindled.MODID);
 
     public static final DeferredItem<Item> THAUMIUM = ITEMS.register("thaumium_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOGGLES = ITEMS.register("goggles", () -> new Item(new Item.Properties()));
 
 
 
