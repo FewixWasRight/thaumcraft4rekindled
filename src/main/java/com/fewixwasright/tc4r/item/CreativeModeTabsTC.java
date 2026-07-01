@@ -22,6 +22,11 @@ public class CreativeModeTabsTC {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.THAUMIUM);
                         output.accept(ModItems.GOGGLES);
+                        output.accept(ModItems.PRIMAL_CHARM);
+                        output.accept(ModItems.ENCHANTED_FABRIC);
+                        output.accept(ModItems.THAUMONOMICON);
+                        output.accept(ModItems.AMBER);
+                        output.accept(ModItems.ALUMENTUM);
                     }).build());
 
     public static final Supplier<CreativeModeTab> TC_BLOCKS_TAB = CREATIVE_MODE_TAB.register("tc_blocks_tab",

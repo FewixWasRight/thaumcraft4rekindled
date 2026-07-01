@@ -11,6 +11,11 @@ public class ModItems {
 
     public static final DeferredItem<Item> THAUMIUM = ITEMS.register("thaumium_ingot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GOGGLES = ITEMS.register("goggles", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMAL_CHARM = ITEMS.register("primal_charm", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ENCHANTED_FABRIC = ITEMS.register("enchanted_fabric", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> THAUMONOMICON = ITEMS.register("thaumonomicon", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AMBER = ITEMS.register("amber", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ALUMENTUM = ITEMS.register("alumentum", () -> new Item(new Item.Properties()));
 
 
 

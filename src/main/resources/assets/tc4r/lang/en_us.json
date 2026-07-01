@@ -1,8 +1,21 @@
 {
     "item.tc4r.thaumium_ingot": "Thaumium Ingot",
     "item.tc4r.goggles": "Goggles Of Revealing",
+    "item.tc4r.enchanted_fabric": "Enchanted Fabric",
+    "item.tc4r.primal_charm": "§6§lPrimal Charm",
+    "item.tc4r.thaumonomicon": "§6Thaumonomicon",
+    "item.tc4r.amber": "Amber",
+    "item.tc4r.alumentum": "Alumentum",
 
     "block.tc4r.thaumium_block": "Thaumium Block",
+    "block.tc4r.amber_ore": "Amber Ore",
+    "block.tc4r.amber_bricks": "Amber Bricks",
+    "block.tc4r.cinnabar_ore": "Cinnabar Ore",
+    "block.tc4r.flesh_block": "Flesh Block",
+    "block.tc4r.greatwood_leaves": "Greatwood Leaves",
+    "block.tc4r.greatwood_planks": "Greatwood Planks",
+    "block.tc4r.silverwood_leaves": "Silverwood Leaves",
+    "block.tc4r.silverwood_planks": "Silverwood Planks",
 
     "creativetab.tc4r.tc_items_tab": "Thaumcraft Items",
     "creativetab.tc4r.tc_blocks_tab": "Thaumcraft Blocks"

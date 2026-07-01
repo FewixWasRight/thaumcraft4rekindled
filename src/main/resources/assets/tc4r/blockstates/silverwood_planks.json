@@ -1,7 +1,5 @@
 {
-  "vaiants": {
-    "": {
-      "model": "tc4r:block/silverwood_planks"
-    }
+  "variants": {
+    "": {"model": "tc4r:block/silverwood_planks"}
   }
 }

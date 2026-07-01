@@ -1,7 +1,6 @@
 {
-  "vaiants": {
-    "": {
-      "model": "tc4r:block/silverwood_planks"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tc4r:block/silverwood_planks"
   }
 }
