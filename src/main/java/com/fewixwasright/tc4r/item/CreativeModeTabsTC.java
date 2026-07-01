@@ -30,6 +30,14 @@ public class CreativeModeTabsTC {
                     .title(Component.translatable("creativetab.tc4r.tc_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.THAUMIUM_BLOCK);
+                        output.accept(ModBlocks.AMBER_ORE);
+                        output.accept(ModBlocks.AMBER_BRICKS);
+                        output.accept(ModBlocks.CINNABAR_ORE);
+                        output.accept(ModBlocks.FLESH_BLOCK);
+                        output.accept(ModBlocks.GREATWOOD_LEAVES);
+                        output.accept(ModBlocks.GREATWOOD_PLANKS);
+                        output.accept(ModBlocks.SILVERWOOD_LEAVES);
+                        output.accept(ModBlocks.SILVERWOOD_PLANKS);
                     }).build());
 
 

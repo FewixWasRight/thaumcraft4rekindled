@@ -32,7 +32,7 @@ public class ModBlocks {
                     .strength(3f)
                     .destroyTime(2f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.SHROOMLIGHT)
             ));
 
     public static final DeferredBlock<Block> AMBER_ORE = registerBlock("amber_ore",
@@ -40,7 +40,7 @@ public class ModBlocks {
                     .strength(3f)
                     .destroyTime(2f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.STONE)
             ));
 
     public static final DeferredBlock<Block> CINNABAR_ORE = registerBlock("cinnabar_ore",
@@ -48,48 +48,44 @@ public class ModBlocks {
                     .strength(3f)
                     .destroyTime(2f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.STONE)
             ));
 
     public static final DeferredBlock<Block> FLESH_BLOCK = registerBlock("flesh_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f)
-                    .destroyTime(2f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .strength(1f)
+                    .destroyTime(3f)
+                    .sound(SoundType.SLIME_BLOCK)
             ));
 
     public static final DeferredBlock<Block> GREATWOOD_LEAVES = registerBlock("greatwood_leaves",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f)
+                    .strength(1f)
                     .destroyTime(2f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.AZALEA_LEAVES)
             ));
 
     public static final DeferredBlock<Block> GREATWOOD_PLANKS = registerBlock("greatwood_planks",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
                     .destroyTime(2f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.WOOD)
             ));
 
     public static final DeferredBlock<Block> SILVERWOOD_LEAVES = registerBlock("silverwood_leaves",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
                     .destroyTime(2f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.AZALEA_LEAVES)
             ));
 
     public static final DeferredBlock<Block> SILVERWOOD_PLANKS = registerBlock("silverwood_planks",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
                     .destroyTime(2f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)
+                    .sound(SoundType.WOOD)
             ));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
