@@ -1,25 +1,9 @@
 
-Installation information
+Thaumcraft 4: Rekindled
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Thaumcraft 4: Rekindled (TC4R) is a rewrite of the original Thaumcraft 4 for Minecraft 1.21.1 from the ground up. The implementation may differ, but hopefully it'll be able to recreate the original Thaumcraft 4's feel and mechanics.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+The original mod's code is used as a reference only. Most sprites and possibly models will be edited or completely re-done to fit my vision of vanilla-ish style. I haven't contacted Azanor as i have no means to (i'm pretty sure CoFH have, but i think it's unrealistic to assume they'll answer to a beginner and agree to set up a small talk with Azanor).
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Although i hope that i'll finish tc4r, this project is a way for me to learn neoforged modding to ultimately create my own magic-based roleplay-focused mod. But i'm very passionate about Thaumcraft, to the point of wanting to create a new Thaumcraft wiki, so i plan on at least remaking the core mechanics.
