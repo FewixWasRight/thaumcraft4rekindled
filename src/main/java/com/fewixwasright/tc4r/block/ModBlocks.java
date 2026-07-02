@@ -91,6 +91,12 @@ public class ModBlocks {
                     .strength(1f)
                     .destroyTime(2f)
                     .sound(SoundType.WOOD)
+
+            ));    public static final DeferredBlock<Block> RESEARCH_TABLE = registerBlock("research_table",
+            () -> new ResearchTable(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .destroyTime(2f)
+                    .sound(SoundType.WOOD)
             ));
 
 

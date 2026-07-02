@@ -43,6 +43,7 @@ public class CreativeModeTabsTC {
                         output.accept(ModBlocks.GREATWOOD_PLANKS);
                         output.accept(ModBlocks.SILVERWOOD_LEAVES);
                         output.accept(ModBlocks.SILVERWOOD_PLANKS);
+                        output.accept(ModBlocks.RESEARCH_TABLE);
                     }).build());
 
 
