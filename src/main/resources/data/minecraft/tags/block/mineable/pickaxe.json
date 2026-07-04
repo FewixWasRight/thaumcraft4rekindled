@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tc4r:thaumium_block"
+    "tc4r:thaumium_block",
+    "tc4r:amber_ore",
+    "tc4r:cinnabar_ore"
   ]
 }
