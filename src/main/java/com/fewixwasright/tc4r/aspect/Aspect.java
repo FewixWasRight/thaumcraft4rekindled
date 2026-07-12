@@ -12,5 +12,3 @@ public class Aspect {
         return name;
     }
 }
-
-//test3

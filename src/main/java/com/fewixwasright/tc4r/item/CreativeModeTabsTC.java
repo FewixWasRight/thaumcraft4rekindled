@@ -27,6 +27,28 @@ public class CreativeModeTabsTC {
                         output.accept(ModItems.THAUMONOMICON);
                         output.accept(ModItems.AMBER);
                         output.accept(ModItems.ALUMENTUM);
+                        output.accept(ModItems.CRIMSON_BLADE);
+                        output.accept(ModItems.AMULET);
+                        output.accept(ModItems.BATH_SALT);
+                        output.accept(ModItems.BELT);
+                        output.accept(ModItems.BONE_BOW);
+                        output.accept(ModItems.BOTTLED_TAINT);
+                        output.accept(ModItems.BRAIN);
+                        output.accept(ModItems.BUCKET_OF_LIQUID_DEATH);
+                        output.accept(ModItems.BUCKET_OF_PURE);
+                        output.accept(ModItems.CINNABAR_CHUNK);
+                        output.accept(ModItems.COIN);
+                        output.accept(ModItems.CRYSTAL_ESSENCE);
+                        output.accept(ModItems.SALIS_MUNDUS);
+                        output.accept(ModItems.TRAVELERS_BOOTS);
+                        output.accept(ModItems.NATIVE_COPPER_CLUSTER);
+                        output.accept(ModItems.NATIVE_GOLD_CLUSTER);
+                        output.accept(ModItems.NATIVE_IRON_CLUSTER);
+                        output.accept(ModItems.NATIVE_CINNABAR_CLUSTER);
+                        output.accept(ModItems.CRIMSON_RITES);
+                        output.accept(ModItems.IRON_RING);
+                        output.accept(ModItems.GOLD_RING);
+                        output.accept(ModItems.RAW_CINNABAR);
                     }).build());
 
     public static final Supplier<CreativeModeTab> TC_BLOCKS_TAB = CREATIVE_MODE_TAB.register("tc_blocks_tab",
